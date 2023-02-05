@@ -3,9 +3,17 @@
 Calculate word counts in a text file as described in the Python Packages book!
 
 ## Installation
-
+I haven't tried this way:
 ```bash
 $ pip install pycounts_gcoronel
+```
+But I tried this following the book:
+```bash
+$ conda activate pycounts_gcoronel
+```
+and then
+```bash
+$ poetry install
 ```
 
 ## Usage
