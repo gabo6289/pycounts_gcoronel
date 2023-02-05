@@ -7,7 +7,7 @@ def load_text(input_file):
         text = file.read()
     return text
 
-def clean_text(text)
+def clean_text(text):
     """Lowercase and remove punctuation from a string"""
     text = text.lower()
     for p in punctuation:
