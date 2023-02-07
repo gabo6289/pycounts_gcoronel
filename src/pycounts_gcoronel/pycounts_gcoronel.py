@@ -11,8 +11,8 @@ def clean_text(text):
     """Lowercase and remove punctuation from a string"""
     text = text.lower()
     for p in punctuation:
-        text = text.replace(p, "")
-        return text
+        text = text.replace(p,'')
+    return text
 
 def count_words(input_file):
     """Count unique words in a string"""
